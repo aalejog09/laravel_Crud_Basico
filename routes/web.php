@@ -10,6 +10,6 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::get('/','productoController@index');
 Route::resource('/producto','productoController');
 Route::get('/buscador/{id}','buscadorController@buscador');
